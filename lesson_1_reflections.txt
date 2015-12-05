@@ -1,0 +1,28 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+The diff helped identify the bug by showing the exact lines that were different between the working and broken versions of the file. Since the bug must have been in the new version, you limit the amount of code you need to look through to identify the bug. It also shows the lines right on top of each other which makes identifying the differences quick and easy. 
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+You can identify mistakes more quickly, and look back out how a program/file was developed. You can also go back to older version if something changes that make them more desireable than the newest version.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+pros: commits can be more logical and the program will be in a workable state at each commit
+cons: you could forget or go too long without committing and lose intermediate changes
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git allows multiple files in one commit so that larger projects (e.g. webpages) can track a change that affects many files. Google Docs treats each file separately because it is typically not related to other files and is self-contained
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log will show all the previous commits, their dates and descriptions. git diff will higlight the differences between two specific commits.
+
+How might using version control make you more confident to make changes that could break something?
+
+You always have the previous commits to fall back on
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use git for new coding projects
