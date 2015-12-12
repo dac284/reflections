@@ -1,1 +1,5 @@
 Lesson 3 Reflections
+
+When would you want to use a remote repository rather than keeping all your work local?
+
+Remotes are especially good for sharing work so that users in different places can access everything, or if you are going to be working on one project from multiple locations/machines. Also useful for getting public feedback and sharing your work with an audience.
